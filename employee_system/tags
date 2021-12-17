@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ERR_MSG	cli.h	6;"	d
+ERR_MSG	ser.h	7;"	d
+IP	cli.h	5;"	d
+IP	ser.h	6;"	d
+N	ser.h	4;"	d
+PORT	cli.h	4;"	d
+PORT	ser.h	5;"	d
+__CLI__H__	cli.h	2;"	d
+__SER__H__	ser.h	2;"	d
+account_name	cli.h	/^    char account_name[20];            $/;"	m	struct:message
+account_name	ser.h	/^	char account_name[20];$/;"	m	struct:message
+address	cli.h	/^	char address[128];	\/\/地址、密码$/;"	m	struct:employee
+address	ser.h	/^    char address[128];  \/\/地址、密码$/;"	m	struct:employee
+age	cli.h	/^	int age;$/;"	m	struct:employee
+age	ser.h	/^    int age;$/;"	m	struct:employee
+cin	ser.c	/^	struct sockaddr_in cin;$/;"	m	struct:cliall	typeref:struct:cliall::sockaddr_in	file:
+cliall	ser.c	/^struct cliall{$/;"	s	file:
+create_mydatebase	ser.c	/^int create_mydatebase()$/;"	f
+create_mydatebase	ser.s	/^create_mydatebase:$/;"	l
+db	ser.c	/^sqlite3 *db = NULL;$/;"	v
+db	ser.s	/^db:$/;"	l
+do_add	cli.c	/^int do_add(int sfd)$/;"	f
+do_load	cli.c	/^int do_load(int sfd)$/;"	f
+do_load	ser.s	/^do_load:$/;"	l
+do_picture	cli.c	/^void do_picture(int sfd)$/;"	f
+do_register	cli.c	/^int do_register(int sfd)$/;"	f
+do_register	ser.c	/^int do_register(int newfd)$/;"	f
+do_register	ser.s	/^do_register:$/;"	l
+emp_buf	cli.h	/^}emp_buf;$/;"	v	typeref:struct:employee
+emp_buf	ser.h	/^}emp_buf;$/;"	v	typeref:struct:employee
+employee	cli.h	/^struct employee{$/;"	s
+employee	ser.h	/^struct employee{$/;"	s
+employee_add	ser.c	/^int employee_add(int newfd)$/;"	f
+employee_load	cli.c	/^int employee_load(int sfd)$/;"	f
+employee_load	ser.c	/^int employee_load(int newfd)$/;"	f
+employee_modif	ser.c	/^int employee_modif(int newfd)$/;"	f
+employee_search	ser.c	/^int employee_search(int newfd)$/;"	f
+init_net	cli.c	/^int init_net()$/;"	f
+init_net	ser.c	/^int init_net()$/;"	f
+init_net	ser.s	/^init_net:$/;"	l
+main	cli.c	/^int main(int argc, const char *argv[])$/;"	f
+main	ser.c	/^int main(int argc, const char *argv[])$/;"	f
+main	ser.s	/^main:$/;"	l
+mes_buf	cli.h	/^}mes_buf;$/;"	v	typeref:struct:message
+mes_buf	ser.h	/^}mes_buf;$/;"	v	typeref:struct:message
+message	cli.h	/^struct message{$/;"	s
+message	ser.h	/^struct message{$/;"	s
+name	cli.h	/^	char name[20];$/;"	m	struct:employee
+name	cli.h	/^    char name[20];$/;"	m	struct:message
+name	ser.h	/^	char name[20];$/;"	m	struct:message
+name	ser.h	/^    char name[20];$/;"	m	struct:employee
+newfd	ser.c	/^	int newfd;$/;"	m	struct:cliall	file:
+passwd	cli.h	/^    char passwd[20];$/;"	m	struct:message
+passwd	ser.h	/^	char passwd[20];$/;"	m	struct:message
+phone	cli.h	/^	char phone[128];	$/;"	m	struct:employee
+phone	ser.h	/^    char phone[128];    $/;"	m	struct:employee
+rcv_cli_msg	ser.c	/^void* rcv_cli_msg(void* arg)$/;"	f
+rcv_cli_msg	ser.s	/^rcv_cli_msg:$/;"	l
+salary	cli.h	/^	float salary;$/;"	m	struct:employee
+salary	ser.h	/^    float salary;$/;"	m	struct:employee
+sex	cli.h	/^	char sex;$/;"	m	struct:employee
+sex	ser.h	/^    char sex;$/;"	m	struct:employee
+sql	ser.h	/^char sql[N] = {0};$/;"	v
+sql	ser.s	/^sql:$/;"	l
+type	cli.h	/^    char type;$/;"	m	struct:message
+type	ser.h	/^	char type;$/;"	m	struct:message
+var	Makefile	/^var?=ser$/;"	m
+wkno	cli.h	/^	char wkno[20];$/;"	m	struct:employee
+wkno	ser.h	/^    char wkno[20];$/;"	m	struct:employee
